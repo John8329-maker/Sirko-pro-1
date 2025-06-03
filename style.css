@@ -1,0 +1,49 @@
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background: linear-gradient(to bottom right, #0057b7, #ffd700);
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+}
+.logo {
+  width: 100px;
+  margin-bottom: 1rem;
+}
+input {
+  width: 70%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  border: none;
+}
+button {
+  padding: 0.7rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffd700;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+.chat-box {
+  margin-top: 1rem;
+  text-align: left;
+}
+.chat-box div {
+  margin: 0.5rem 0;
+}
+.popup {
+  background-color: #fff;
+  color: #000;
+  padding: 1rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+.hidden {
+  display: none;
+}

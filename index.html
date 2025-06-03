@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Sirko — безкоштовний AI-сайт для українців у Польщі. Побут, медицина, освіта, документи — просто запитай.">
+  <meta name="keywords" content="українці в Польщі, GPT, медицина, освіта, побут, допомога, chatbot, AI">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Sirko — AI-помічник для українців у Польщі">
+  <meta property="og:description" content="Постав будь-яке запитання про життя у Польщі — Sirko допоможе!">
+  <meta property="og:image" content="/logo.png">
+  <title>Sirko — AI-помічник для українців у Польщі</title>
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="/favicon.png" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Логотип Sirko" class="logo" />
+    <h1>Привіт! Я — Sirko 🐾</h1>
+    <p>Постав мені будь-яке запитання про життя в Польщі — я відповім!</p>
+    <div class="chat-box" id="chat-box"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Наприклад: Як оформити PESEL?" required />
+      <button type="submit">Надіслати</button>
+    </form>
+    <p id="question-count"></p>
+    <div id="donation-popup" class="popup hidden">
+      <p>Щоб продовжити, підтримай проєкт Sirko 🐾 на 1 злотий</p>
+      <a href="#" target="_blank" class="donate-btn">Підтримати</a>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
